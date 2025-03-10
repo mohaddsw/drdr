@@ -1,0 +1,27 @@
+.container {
+    padding: 20px;
+    text-align: center;
+ 
+  }
+  
+  .container h1 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+ 
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .customCard {
+    border: 3px dashed #6a0dad;
+  }
+  
+  .customButton {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

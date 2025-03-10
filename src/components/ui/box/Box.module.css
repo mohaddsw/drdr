@@ -1,0 +1,9 @@
+.box {
+    width: 100%;
+    padding: 20px;
+    color: #292929; 
+    border-radius: 12px; 
+    box-sizing: border-box; 
+    transition: all 0.3s ease-in-out;
+    
+  }

@@ -1,0 +1,44 @@
+.typography {
+    font-family: "Arial", sans-serif;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  .h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .body {
+    font-size: 16px;
+  }
+  
+  .small {
+    font-size: 14px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
