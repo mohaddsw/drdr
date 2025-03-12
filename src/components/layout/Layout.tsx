@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import styles from "./Layout.module.scss"; 
+import styles from "./Layout.module.css"; 
 import { ReactNode } from "react";
 
 interface Props {
@@ -13,6 +13,7 @@ const Layout:FC<Props> = ({ children }) => {
         <h1>DrDr</h1>
       </header>
       <main className={styles.layoutMain}>
+      
         {children}
       </main>
     </div>
