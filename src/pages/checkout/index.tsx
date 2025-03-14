@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import Button from "@/components/ui/button/Button";
 import styles from "./index.module.css";
 import RemoveCard from "@/components/removeCard/RemoveCard";
