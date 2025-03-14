@@ -16,7 +16,7 @@
   .layoutMain {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-grow: 1;
     max-width: 500px;
