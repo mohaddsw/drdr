@@ -12,10 +12,12 @@
   }
  
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+  .mediciene-contaent{
+    display:flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 20px;
+    box-sizing: border-box;
   }
   
   .customCard {

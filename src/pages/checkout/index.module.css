@@ -1,5 +1,8 @@
-.container {
-    padding: 20px;
+.container .content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
   }
   
   .container h1 {
@@ -7,10 +10,7 @@
     margin-bottom: 20px;
   }
   
-  .container ul {
-    list-style-type: none;
-    padding: 0;
-  }
+ 
   
   .item {
     display: flex;
@@ -34,17 +34,32 @@
     margin-top: 20px;
     font-size: 18px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
   }
   
   .confirmButton {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: green;
+    background-color:#dfdffb;
     color: white;
   }
   
   .confirmButton:hover {
-    background-color: darkgreen;
+    background-color: purple;
   }
-  
+  .nav{
+    height: 50px;
+    width: 500px;
+    background-color:  #dfdffb;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .images{
+    cursor: pointer;
+  }
